@@ -15,11 +15,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+
 ## 💻 Coding Profiles
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/
-Aaditya_Raj1101?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/u/
-Aaditya_Raj1101/)
+### LeetCode Stats & Activity
 
-[![GitHub](https://img.shields.io/badge/GitHub-AadityaRaj59-black?logo=github)](https://github.com/AadityaRaj59)
+[![LeetCode Heatmap](https://leetcard.jacoblin.cool/Aaditya_Raj1101?theme=dark&ext=heatmap)](https://leetcode.com/u/Aaditya_Raj1101/)
+
+[View my LeetCode Profile](https://leetcode.com/u/Aaditya_Raj1101/)
+
 
