@@ -1,0 +1,37 @@
+name: Refresh animated coding heatmaps
+on:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-heatmaps.yml"
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - name: Generate SVGs from real public activity
+        env:
+          GITHUB_USERNAME: AadityaRaj59
+          LEETCODE_USERNAME: Aaditya_Raj1101
+        run: python scripts/generate_heatmaps.py
+      - name: Commit updated heatmaps
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-heatmap.svg assets/leetcode-heatmap.svg
+          if git diff --cached --quiet; then
+            echo "Heatmaps unchanged; nothing to commit."
+          else
+            git commit -m "chore: refresh coding heatmaps"
+            git push
+          fi
