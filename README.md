@@ -70,9 +70,6 @@ My focus remains on developing a strong foundation, applying it through practica
 ## Coding Activity
 
 <p align="center">
-  <img src="./assets/github-heatmap.svg" alt="GitHub contribution heatmap for AadityaRaj59" width="820">
-</p>
-<p align="center">
   <img src="./assets/leetcode-heatmap.svg" alt="LeetCode submission heatmap for Aaditya_Raj1101" width="820">
 </p>
 <p align="center">
