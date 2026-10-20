@@ -14,3 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## 💻 Coding Profiles
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/
+Aaditya_Raj1101?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/u/
+Aaditya_Raj1101/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-AadityaRaj59-black?logo=github)](https://github.com/AadityaRaj59)
+
